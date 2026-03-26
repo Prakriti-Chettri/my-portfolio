@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prakriti Chettri | Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f1f5f9;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #38bdf8;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 15px 0 5px;
+      color: #38bdf8;
+      font-size: 32px;
+    }
+
+    .tagline {
+      color: #94a3b8;
+      font-size: 16px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      line-height: 1.6;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      background: #38bdf8;
+      border: none;
+      padding: 12px;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <!-- ADD YOUR PHOTO LINK BELOW -->
+  <img src="myphoto.jpg.jpeg" alt="Photo">
+
+  <h1>Prakriti Chettri</h1>
+  <p class="tagline">
+    BCA Student | Exploring Tech, Business & Real-World Skills
+  </p>
+</header>
+
+<section>
+
+  <h2>About Me</h2>
+  <div class="card">
+    I am a curious and growth-driven individual currently pursuing BCA, with a strong interest in technology, business, and real-world problem solving. 
+    I enjoy learning by doing—whether it's building projects, understanding how systems work, or improving my communication and thinking skills. 
+    My focus is not just on technical knowledge, but on becoming someone who can adapt, connect, and create value in any environment.
+  </div>
+
+  <h2>Education</h2>
+  <div class="card">
+    <b>Kristu Jayanti College (Autonomous)</b> — BCA<br><br>
+    <b>Techno India Group Public School</b><br>
+    Higher Secondary Education
+  </div>
+
+  <h2>Skills</h2>
+  <div class="card grid">
+    <div>HTML, CSS, JavaScript</div>
+    <div>Node.js (Basics)</div>
+    <div>SQL (Basics)</div>
+    <div>Git & GitHub</div>
+  </div>
+
+  <h2>Soft Skills</h2>
+  <div class="card grid">
+    <div>Communication</div>
+    <div>Relationship Building</div>
+    <div>Persuasion</div>
+    <div>Adaptability</div>
+    <div>Consistency</div>
+    <div>Curiosity & Learning Mindset</div>
+  </div>
+
+  <h2>Languages</h2>
+  <div class="card">
+    English (Fluent)<br>
+    Hindi (Fluent)<br>
+    Nepali (Native)
+  </div>
+
+  <h2>Projects</h2>
+  <div class="card">
+    <b>Personal Portfolio Website</b><br>
+    Designed and deployed a responsive portfolio to showcase my skills and journey.<br><br>
+
+    <b>Basic Backend API</b><br>
+    Built using Node.js and Express to handle form data and understand backend workflows.
+  </div>
+
+  <h2>Contact Me</h2>
+  <div class="card">
+    <form action="https://formspree.io/f/YOUR_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Prakriti Chettri | Built with consistency and curiosity 🚀
+</footer>
+
+</body>
+</html>
